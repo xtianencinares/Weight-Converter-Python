@@ -5,12 +5,12 @@ def from_kg():
     gram = float(e2_value.get())*1000
     pound = float(e2_value.get())*2.20462
     ounce = float(e2_value.get())*35.274
-    t1.delete("1.0",END)
-    t1.insert(END, gram)
-    t2.delete("1.0", END)
-    t2.insert(END, pound)
-    t3.delete("1.0", END);
-    t3.insert(END, ounce)
+     t1.delete("1.0",END)
+     t1.insert(END, gram)
+     t2.delete("1.0", END)
+     t2.insert(END, pound)
+     t3.delete("1.0", END);
+     t3.insert(END, ounce)
 
 e1 = Label(window, text="Input the weight in KG")
 e2_value = StringVar()
