@@ -8,7 +8,7 @@ def from_kg():
    t1.delete("1.0",END)
    t1.insert(END, gram)
    t2.delete("1.0", END)
-     t2.insert(END, pound)
+     t2.insert(END, pound) 
      t3.delete("1.0", END);
      t3.insert(END, ounce)
 
