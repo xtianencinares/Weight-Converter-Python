@@ -10,7 +10,7 @@ def from_kg():
    t2.delete("1.0", END)
      t2.insert(END, pound) 
      t3.delete("1.0", END);
-     t3.insert(END, ounce) 
+     t3.insert(END, ounce)  
 
 e1 = Label(window, text="Input the weight in KG")
 e2_value = StringVar()
