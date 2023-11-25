@@ -20,7 +20,7 @@ e4 = Label(window, text="Pound")
 e5 = Label(window, text="Ounce")
 
 t1 = Text(window, height=5, width=30)
-t2 = Text(window, height=5, width=30)
+t2 = Text(window, height=5, width=30) 
 t3 = Text(window, height=5, width=30)
  
 b1 = Button(window, text="Convert", command=from_kg)
