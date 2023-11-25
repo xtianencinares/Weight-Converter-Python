@@ -16,7 +16,7 @@ e1 = Label(window, text="Input the weight in KG")
 e2_value = StringVar() 
 e2 = Entry(window, textvariable=e2_value)
 e3 = Label(window, text="Gram") 
-e4 = Label(window, text="Pound")
+e4 = Label(window, text="Pound") 
 e5 = Label(window, text="Ounce")
 
 t1 = Text(window, height=5, width=30)
