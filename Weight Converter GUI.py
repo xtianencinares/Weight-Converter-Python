@@ -13,7 +13,7 @@ def from_kg():
      t3.insert(END, ounce)  
  
 e1 = Label(window, text="Input the weight in KG")
-e2_value = StringVar()
+e2_value = StringVar() 
 e2 = Entry(window, textvariable=e2_value)
 e3 = Label(window, text="Gram") 
 e4 = Label(window, text="Pound")
